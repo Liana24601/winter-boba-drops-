@@ -1,6 +1,11 @@
-img {
-    width: 70%;
-}
 body {
-    background-image: url(https://marketplace.canva.com/EAGTv-YTh8Q/1/0/1600w/canva-red-and-brown-aesthetic-vision-board-photo-collage-christmas-desktop-wallpaper-vjuDlx_s3Fw.jpg);
+
+  background-image: url('https://marketplace.canva.com/EAGTv-YTh8Q/1/0/1600w/canva-red-and-brown-aesthetic-vision-board-photo-collage-christmas-desktop-wallpaper-vjuDlx_s3Fw.jpg'); /* Use the full URL of the image */
+
+  background-size: cover; /* Ensures the image covers the entire background */
+
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+
+  background-position: center; /* Centers the image */
+
 }
