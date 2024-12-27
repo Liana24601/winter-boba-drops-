@@ -1,8 +1,8 @@
 html, body {
 
-  margin: 0; /* Removes default margins */
+  margin: 0; 
 
-  height: 100%; /* Ensures both html and body cover the full screen */
+  height: 100%; 
 
 }
 
@@ -12,25 +12,25 @@ body {
 
   background-image: url('https://marketplace.canva.com/EAGTv-YTh8Q/1/0/1600w/canva-red-and-brown-aesthetic-vision-board-photo-collage-christmas-desktop-wallpaper-vjuDlx_s3Fw.jpg');
 
-  background-size: cover; /* Ensures the image scales to cover the entire area */
+  background-size: cover; 
 
-  background-repeat: no-repeat; /* Prevents repeating */
+  background-repeat: no-repeat;
 
-  background-position: center; /* Centers the image */
+  background-position: center; 
 
 }
 
   img {
 
-  display: block; /* Makes it easier to center the image */
+  display: block; 
 
-  margin: 0 auto; /* Centers the image horizontally */
+  margin: 0 auto; 
 
-  max-width: 50%; /* Adjusts the image width to be responsive */
+  max-width: 50%; 
 
-  height: auto; /* Maintains the aspect ratio */
+  height: auto; 
 
-  border-radius: 10px; /* Optional: adds rounded corners */
+  border-radius: 10px; 
 
 }
 
