@@ -18,7 +18,19 @@ body {
 
   background-position: center; /* Centers the image */
 
-  color: white;
+}
+
+  img {
+
+  display: block; /* Makes it easier to center the image */
+
+  margin: 0 auto; /* Centers the image horizontally */
+
+  max-width: 50%; /* Adjusts the image width to be responsive */
+
+  height: auto; /* Maintains the aspect ratio */
+
+  border-radius: 10px; /* Optional: adds rounded corners */
 
 }
 
