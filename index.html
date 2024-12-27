@@ -8,19 +8,29 @@
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>Background Image from URL</title>
+  <title>Background Fix</title>
 
   <style>
+
+    html, body {
+
+      margin: 0; /* Remove default margins */
+
+      height: 100%; /* Ensure the background fills the screen */
+
+    }
+
+
 
     body {
 
       background-image: url('https://marketplace.canva.com/EAGTv-YTh8Q/1/0/1600w/canva-red-and-brown-aesthetic-vision-board-photo-collage-christmas-desktop-wallpaper-vjuDlx_s3Fw.jpg');
 
-      background-size: cover;
+      background-size: cover; /* Cover the entire screen */
 
-      background-repeat: no-repeat;
+      background-repeat: no-repeat; /* Do not repeat the image */
 
-      background-position: center;
+      background-position: center; /* Center the image */
 
     }
 
@@ -30,9 +40,9 @@
 
 <body>
 
-  <h1>Welcome to My Website!</h1>
+  <h1>Welcome!</h1>
 
-  <p>This is a website with a background image from an online source.</p>
+  <p>This background now displays correctly.</p>
 
 </body>
 
