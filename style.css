@@ -1,36 +1,19 @@
 html, body {
-
   margin: 0; 
-
   height: 100%; 
-
 }
 
-
-
 body {
-
   background-image: url('https://marketplace.canva.com/EAGTv-YTh8Q/1/0/1600w/canva-red-and-brown-aesthetic-vision-board-photo-collage-christmas-desktop-wallpaper-vjuDlx_s3Fw.jpg');
-
   background-size: cover; 
-
   background-repeat: no-repeat;
-
   background-position: center; 
-
 }
 
   img {
-
   display: block; 
-
   margin: 0 auto; 
-
   max-width: 50%; 
-
   height: auto; 
-
   border-radius: 10px; 
-
 }
-
